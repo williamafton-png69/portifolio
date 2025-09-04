@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Purple_man.png" alt="avatar do William" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou William</p>
+        <h1>Sou estudante e busco sempre aprimorar meu conhecimento</h1>
+        <p>Gosto muito de jogos indies, leitura e teologia da palavra de Deus. Dedico-me ao estudo e ao
+            aprimoramento constante, e hoje estou desenvolvendo minhas habilidades em diversas áreas, como
+            programação e repertórios.</p>
+
+        <div>
+            <p class="badge bg-secondary">Jogos Indies</p>
+            <p class="badge bg-secondary">Leitura</p>
+            <p class="badge bg-secondary">Teologia</p>
+            <p class="badge bg-secondary">Teclado (Nível Intermediário)</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus Lazeres</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/indie-cross-fanart-v0-rjvdni2iqs1f1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogos Indie: Uma jornada na imersão</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus jogos
+                            favoritos, incluindo informações sobre os desenvolvedores, datas de lançamento e um breve contexto.
+                             A página é estilizada com CSS para uma visualização agradável e usa fontes
+                            externas do Google Fonts.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/download.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Investindo no conhecimento: Estudos sobre a teologia e aplicações na vida</h5>
+                        <p class="card-text">Este projeto é uma reflexão baseado em conceitos que exploram além do conhecimento natural humano,
+                            e busca nos questionar sobre nossas ações e escolhas baseadas na razão, mostrando os desafios e lutas pela busca do
+                            auto conhecimento.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/images.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Repertórios Artistico: Aprendizado, diversão e superação</h5>
+                        <p class="card-text">Este projeto mostra como a música pode servir como forma de dedicação, 
+                            sendo divertida e desafiadora para quem tem tempo de investir em novas habilidades, 
+                            ampliando seu repertório cultural e seu gosto pelas artes.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sessão de Hobbies e Estudo -->
+        <section class="mt-5">
+            <h2>Meus Interesses Pessoais</h2>
+            <p><strong>Jogos Indies:</strong> Sou fã de jogos indie, onde a inovação e a criatividade dos desenvolvedores são as maiores atrações. Gosto de explorar jogos que fogem do convencional, e sempre busco novas experiências. Games como <em>Hollow Knight</em>, <em>Celeste</em> e <em>Undertale</em> são alguns dos meus favoritos.</p>
+
+            <p><strong>Leitura:</strong> A leitura é uma das minhas formas favoritas de aprendizado. Gosto de explorar desde ficção até livros sobre desenvolvimento pessoal, história, e teologia. A cada livro, procuro sempre extrair ensinamentos que me ajudem a crescer como pessoa.</p>
+
+            <p><strong>Teologia da Palavra de Deus:</strong> Além da leitura, me dedico ao estudo profundo da Bíblia, buscando entender a aplicação prática da palavra de Deus na vida cotidiana. A teologia me ajuda a compreender melhor a vida e a ser mais sábio nas decisões.</p>
+        </section>
+
+        <!-- Sessão de Habilidades -->
+        <section class="mt-5">
+            <h2>Minhas Habilidades</h2>
+            <p><strong>Teclado (Nível Iniciante):</strong> Tenho dedicado um tempo ao aprendizado do teclado, e hoje me considero um iniciante. Já consigo tocar variadas e replicar certas músicas que exijam poucos acordes, e estou sempre praticando para evoluir. A música tem sido uma excelente forma de expressão e também de relaxamento.</p>
+        </section>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma coleção pessoal de livros favoritos. O objetivo é criar um ambiente virtual onde seja possível compartilhar seus livros preferidos, fornecendo uma descrição breve de cada um, incluindo o autor, o ano de publicação e uma opção de compra.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência Artificial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo interativo baseado em navegador que explora o impacto e as implicações da Inteligência Artificial (IA) na sociedade. A narrativa permite que o jogador faça escolhas que influenciam o futuro da IA, destacando as questões éticas e sociais associadas a essa tecnologia.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100" alt="Imagem representativa do projeto de IA">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div

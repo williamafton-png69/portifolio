@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #C92BFC;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+    background-color: #f4f7fa; /* Cor de fundo mais suave */
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal);
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    padding: 3rem 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+}
+
+header .lead {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+header .badge {
+    margin: 0.3rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+/* Cards Styles */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--cor-secundaria);
+}
+
+.card-text {
+    font-size: 1rem;
+    color: var(--cor-principal);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: 2px solid var(--cor-secundaria);
+}
+
+.modal-footer a {
+    color: var(--cor-secundaria);
+    margin-right: 1rem;
+}
+
+.modal-footer a:hover {
+    color: var(--cor-destaque);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff;
+    padding: 3rem 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+    text-align: center;
+}
+
+footer .bi {
+    font-size: 2rem;
+    color: var(--cor-secundaria);
+    margin-bottom: 1rem;
+}
+
+footer .bi:hover {
+    color: var(--cor-destaque);
+}
+
+footer p {
+    font-size: 1rem;
+    color: var(--cor-principal);
+}
+
+/* Section Styles for Hobbies & Skills */
+section h2 {
+    color: var(--cor-secundaria);
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--cor-principal);
+}
+
+section p strong {
+    font-weight: 700;
+    color: var(--cor-secundaria);
+}
+
+/* Specific Styling for Interactions */
+.lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--cor-secundaria);
+}
+
+.btn-link {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    header img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+}
